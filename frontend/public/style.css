@@ -1,0 +1,14 @@
+body {
+  margin: 0px;
+}
+pre {
+  display: none;
+}
+
+i.material-icons {
+  font-size: 19px;
+}
+
+* {
+  outline: none!important;
+}
