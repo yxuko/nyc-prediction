@@ -54,6 +54,8 @@ npm run start
 
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
+#### Installation
+
 - Installez [Python](https://www.python.org/)
 - Installer les dépendances
 
