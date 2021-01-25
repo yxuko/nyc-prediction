@@ -22,7 +22,7 @@ Ce Dataset comprend tous les crimes, délits et infractions valides signalés au
 
 ## Notebooks
 
-Les Notebooks sont disponible sur Kaggle
+Les Notebooks sont disponibles sur Kaggle
 
 - [Notebook d'exploration](https://www.kaggle.com/yxuko16/nyd-complaint-data-exploration)
 - [Notebook de Modèle](https://www.kaggle.com/omaymaabid/nyc-complaint-predicition)
