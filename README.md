@@ -1,16 +1,14 @@
-<h1 align="center">
+<h1 align = "center">
   <br>
-  Prédiction et Classification de Crimes de New York City
+  Crime Prediction of New York City
 
 </h1>
 
-<div align="center">
+<div align = "center">
   <h4>
     <a href="#dataset">Dataset</a> |
-    <a href="#notebooks">Notebooks</a> |
-    <a href="#technologies">Technologies</a> |
-    <a href="#visualisation">Visualisation</a> |
-    <a href="#paper">Paper</a>
+    <a href="#installation">Installation</a> |
+    <a href="#visualization">Visualization</a>
   </h4>
 </div>
 
@@ -18,61 +16,37 @@
 
 ## Dataset
 
-Ce Dataset comprend tous les crimes, délits et infractions valides signalés au département de police de New York (NYPD) de 2006 à la fin de l'année dernière (2019). Pour plus de détails, veuillez consulter [NYPD Complaint Data Historic](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i).
+This Dataset includes all felonies, misdemeanors and valid infractions reported to the New York Police Department (NYPD) from 2006 to the end of the year 2019. For more details, please see [NYPD Complaint Data Historic] (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i).
 
-## Notebooks
+## Installation
 
-Les Notebooks sont disponibles sur Kaggle
+### Frontend
 
-- [Notebook d'exploration](https://www.kaggle.com/yxuko16/nyd-complaint-data-exploration)
-- [Notebook de Modèle](https://www.kaggle.com/omaymaabid/nyc-complaint-predicition)
+- Install dependencies
 
-## Technologies
-
-### Frontend, pour la visualisation
-
-- [React](https://reactjs.org/)
-- [ArcGIS](https://developers.arcgis.com/javascript/)
-
-#### Installation
-
-- Installez [NodeJs](https://nodejs.org/en/)
-- Installer les dépendances
-
-```sh
-npm install
+``` sh
+yarn install
 ```
 
-- Vérifiez adresse de l'API backend dans src/constants/index.jsx
-- Lancer App.
+- Check backend API address in src/constants/index.jsx
+- Launch App.
 
-```sh
-npm run start
+``` sh
+yarn start
 ```
 
-### Backend, pour la prédiction
+### Backend
 
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/)
-
-#### Installation
-
-- Installez [Python](https://www.python.org/)
-- Installer les dépendances
-
-```sh
+``` sh
 pip install -r requirements.txt
 ```
 
-- Lancer App.
+- Launch App.
 
-```sh
+``` sh
 python app.py
 ```
 
-## Visualisation
+## Visualization
 
-La Visualisation est disponible [ici](https://ter-nyc.yxuko.vercel.app/).
-
-## Paper
-
-Le Papier de recherche est disponible sous format pdf dans ce répertoire.
+The Visualization is available [here] (https://nyc-prediction.vercel.app/).
