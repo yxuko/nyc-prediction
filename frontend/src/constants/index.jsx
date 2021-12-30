@@ -11,4 +11,4 @@ export {
     days
 } from './timeMarks'
 
-export const apiUrl = 'http://127.0.0.1:3005'
+export const apiUrl = 'https://nyc-prediction.herokuapp.com'
