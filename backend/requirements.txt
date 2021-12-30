@@ -1,4 +1,4 @@
 flask_cors
-tensorflow
+tensorflow-cpu
 flask
 gunicorn
